@@ -1,0 +1,1284 @@
+User Manual of MindForth Artificial Intelligence for Robots
+
+
+Table of Contents
+1 Overview
+1.1 What is MindForth?
+1.2 History of MindForth
+1.3 Does MindForth think?
+1.4 Is MindForth conscious?
+1.5 Can MindForth feel emotions?
+1.6 Uses of MindForth
+1.6.1 For a Computer Science course in artificial intelligence
+1.6.2 For service as a savvy oracle to answer questions
+1.6.3 For demonstration of machine translation (MT).
+1.6.4 For installation as the mind of a robot
+1.7 Proliferation of MindForth
+1.8 Timeline of Technological Singularity
+2 Getting Started
+2.1 Obtaining Mind.Forth
+2.2 Downloading Win32Forth
+2.3 Distributing Mind.Forth
+3 Running Mind.Forth
+3.1 Display Modes
+3.1.0 Normal Mode
+3.1.1 Transcript Mode
+3.1.2 Tutorial Mode
+3.1.3 Diagnostic Mode
+3.2 Interaction
+3.2.1 No human input -- sensory deprivation
+3.2.2 Minimal human input
+3.2.3 Simple human input -- conversation with the AI Mind
+3.2.4 Knowledge Base input
+3.2.5 Psychological experimentation
+3.3 Troubleshooting
+3.3.1 Problems
+3.3.2 Getting Help
+3.4 Departing from MindForth
+3.4.1 Keeping MindForth alive indefinitely
+3.4.2 Shutting down MindForth
+4 Documentation of MindForth
+4.1 Mind project documentation
+4.2 External, independent documentation
+5 Programming Mind.Forth
+5.0 Superficial changes without knowledge of Forth
+5.1 Learning Forth
+5.2 Enhancing Mind.Forth
+5.3 Porting Mind.Forth to other languages
+6 Hosting MindForth on the Web
+6.1 Metempsychosis
+7 Installing MindForth in a robot
+7.1 Robots as persons
+7.2 Leave your fortune to your robot.
+8 Careers in AI
+8.1 Non-technical careers
+8.2 Technical careers
+
+
+1 Overview
+Mind.Forth -- the software of an artificial robot Mind written 
+in the Forth programming language -- became a genuine artificial 
+intelligence as a result of a sudden AI breakthrough on 7 June 2006. 
+However, Mind.Forth did not become AI-Complete until 22 January 2008. 
+The breakthrough -- clearly visible in Tutorial mode -- made Mind.Forth 
+able to think logically and not output spurious associations of gibberish. 
+Is it for real? Is it genuine artificial intelligence? You be the judge. You be 
+the early adopter. On some clunky old MS-DOS machine, get Mind.Forth
+up and running ( potentially forever) for all to see and judge. Go into the source 
+code, if you like, and carve your name into the on-screen messages for users.
+Show it to some high-potential, low-achiever who claims to be ultra-intelligent
+but never does anything ultra-productive. Then hold onto your hat, and
+welcome to the Technological Singularity.
+
+1.1 What is MindForth?
+Mind.Forth AI is a rudimentary replica of the human mind 
+programmed in the Forth programming language. The AI Mind 
+is the software implementation of a theory of mind based on 
+Chomskyan linguistics -- the rules and structures of thought in 
+natural human language. The Forthmind software is an open-source 
+free AI download in the public domain. It is not a chatbot. 
+The AI engine is arguably the first True AI. It is immortal. 
+1.2 History of MindForth
+In the beginning was Mind.REXX on the Commodore Amiga, 
+which the author Mentifex began coding in July of 1993, 
+and publicizing in the Usenet comp.lang.rexx newsgroup. 
+The late Pushpinder Singh of MIT sent e-mail expressing 
+his amazement that anyone would try to do AI in REXX. 
+Mentifex mailed back the entire Mind.REXX source code. 
+Another fellow, an IBM mainframe programmer, tried to 
+port the Amiga Rexxmind to run on his IBM mainframe -- 
+which would have been a Kitty-Hawk-to-Concorde leap -- 
+but the REXX AI code was not fit for IBM consumption. 
+When Mind.REXX thought its first thought in late 1994, 
+Mentifex posted news of the event in Usenet newsgroups 
+for many of the most significant programming languages. 
+Only the Forth community took up the AI challenge and 
+expressed any interest in translating the AI program. 
+A maker of Forth chips gave advice and counsel, and 
+a maker of robots requested a copy of Mind.REXX for 
+porting into the Forth in which he programmed his robots. 
+Sorely disappointed at not having established a colony 
+of AI Minds on IBM mainframes, Mentifex resolved to 
+learn Forth on his own and assist in the porting of 
+Mind.REXX into Mind.Forth for use in amateur robotics. 
+Mentifex bought a copy of Starting Forth at a used 
+book store and recorded his pilgrim's progress in the first 
+volume of the Mind.Forth Programming Journal (MFPJ). 
+The amateur robot-maker, a professional engineer, flew 
+to Seattle on business with Boeing and visited Mentifex 
+in his Vaierre apartment with a lesson on Forth coding. 
+Another engineer, formerly with IBM and a REXX expert 
+who had helped Mentifex in the coding of Mind.REXX AI, 
+flew to the Bay area for a REXX conference at S.L.A.C. 
+and was treated to dinner by the maker of Forth chips. 
+Unfortunately, Mentifex did not try hard enough to learn 
+Forth and the Forthmind project languished in 1996 and 
+1997 -- while Netizens were attacking Mentifex for daring 
+to claim that he had developed a theory of mind for AI. 
+It gradually dawned on Mentifex that in every Usenet 
+newsgroup related to AI or robotics, there was always 
+one fellow who considered himself the ultimate authority 
+on the subject matter of the newsfroup, and woe unto 
+anyone, especially an independent scholar like Mentifex, 
+who dared to make an extraordinary scientific claim (ESC) 
+on so grave a matter as announcing actual progress in AI. 
+When the alpha male of comp.robotics.misc (a really cool 
+guy, by the way) brachiated over to Mentifex in the group 
+in 1997 and launched an unseemingly vicious ad hominem 
+attack, Mentifex knew not how to defend himself and was 
+overcome with feelings of immense gratitude when the foxie 
+Forth chip maker smote the troublemaker a mighty blow in 
+defense of Mentifex. Forthwith Mentifex took up Forth again 
+and devoted the entire year of 1998 to porting Mind.REXX 
+into the native language of telescopes and robots -- Forth. 
+In Mind.REXX, Mentifex had gone overboard in creating 
+variables for even the slightest chance that they might 
+turn out to be useful. Nobody had ever written a True AI 
+before, it was all uncharted territory, and it seemed 
+better to err on the side of too many variables rather 
+than too few. In Forth, however, variables are anathema. 
+Forthers prefer to put a value on the "stack" instead of 
+in a variable. Mentifex never became a genuine, maniacally 
+obsessive Forth programmer, but chose to program his AI 
+in Forth code that looked enough like other languages to 
+be easy to understand and to be easy to port from Forth. 
+While Mentifex moved his AI coding efforts from MVP-Forth 
+on the Amiga to F-PC on IBM clones and finally to Win32Forth, 
+he also in 2001 (a space odyssey) suddenly ported MindForth 
+into JavaScript so that users could just click on a link 
+and have the Tutorial AI Mind flit across the 'Net and 
+take up albeit brief residence on their MSIE computer. 
+While Push Singh was simply amazed at doing AI in REXX, 
+many Netizens openly laughed and sneered at the idea of 
+coding an AI Mind in JavaScript, which was not by any means 
+a traditional AI language. Mentifex, however, suspected 
+that his Mind.html in JavaScript was slowly building the 
+largest installed user base of any AI program in the world, 
+because it was so easy to save-to-disk the Mind.html code 
+and because Site Meter logs reported the spread of the AI. 
+Mentifex fell into the practice of switching back and forth 
+between coding AI in JavaScript for a while and then in Forth. 
+In March of 2005 Mentifex began coding powerful diagnostic 
+routines into MindForth. He began to find and eliminate bugs 
+that he could not deal with earlier because he had not even 
+suspected their existence. Meanwhile, Mr. Frank J. Russo 
+began to code what became http://AIMind-i.com -- a version 
+of the Forthmind with its own site on the Web and with 
+special abilities far beyond those of Mind.Forth, such as 
+the ability to send and receive e-mail, and the ability 
+to surf the Web. On 7 June 2006, Mentifex was "tweaking 
+some parameters" and made a breakthrough in his quest for 
+the slosh-over effect -- where activity on subject-concepts 
+combines with activity on a verb to "slosh over" onto the 
+selection of a correct object to go with noun and verb. 
+It took another year and a half of programming to achieve 
+the True AI of 22 January 2008 as described in this Manual. 
+
+
+1.3 Does MindForth think?
+The whole purpose of Mind.Forth is to think. It is an 
+embodiment of the Cartesian Cogito ergo sum -- 
+"I think, therefore I am." Mind.Forth does indeed think, 
+but the real questions here are, how does Mind.Forth 
+think, and what proof is there that Mind.Forth thinks? 
+Mind.Forth thinks by having concepts at a deep level 
+in the artificial mind, and by letting activation spread 
+from one concept to another to another in a chain of thought 
+under the guidance of a Chomskyan linguistic superstructure 
+(syntax). Even without the syntax -- Greek for "ordering 
+together" -- Mind.Forth would be able to associate from 
+concept to concept and exhibit the purposive behavior of 
+an animal such as, say, a dog, which shows a certain level 
+of understanding in a complex activity such as inviting a 
+human being to throw a stick and then chasing and fetching 
+the stick and bringing it back and laying it on the ground. 
+In fact, up until late 2001, the Mind.Forth algorithm tried 
+to think all the concepts in a three-word sentence at once. 
+The software would simultaneously activate the three words 
+of three concepts in a subject-verb-object (SVO) order and 
+proceed to generate a sentence with the three active words. 
+Then one of those funny things happened on the way to the 
+Singularity. In the AI Mind programming, the question arose 
+whether the linguistic superstructure should "reach down," 
+as it were, and activate the entire incipient sentence as 
+a finished product of mind, or -- and here was a major 
+confrontation with the unknown quandaries of AI -- should 
+the governing syntax reach down into the conceptual grid 
+and not only activate one concept at a time, but also let 
+the activated concept "have a say," so to speak, in the 
+selection of the next concept to activate, and then likewise 
+from the current concept on to the next concept? And should 
+the chain of thought not be determined in advance, but 
+rather unfold in the very process of generating an idea? 
+The Mind.Forth author Mentifex decided to adopt the method 
+of letting each concept in the chain determine the direction 
+of the chain, and Mentifex suddenly realized that the 
+thought process of such a linguistically guided mechanism 
+was inherently more powerful than the simple, underlying 
+alternative of letting concepts activate each other in a 
+loose, unguided chaining of activations. In other words, 
+syntactically guided thinking, as invented rather blindly 
+by human beings, gives rise to the Albert Einsteins and 
+the Benjamin Goertzels of this world.
+Now, what proof is there that Mind.Forth thinks? The proof 
+is in what Dr. Goertzel calls an "existence proof." Run the 
+AI mind and observe, s'il vous plait, that thinking occurs. 
+The thinking is very primitive indeed, but we are at the 
+dawn of True AI in the world. The reason why Mind.Forth 
+exhibits thinking, when other ambitious AI projects have 
+failed to do so, is that Mind.Forth implements its own 
+unique theory of mind. It was far more difficult for 
+the independent AI scholar Mentifex to develop the theory 
+of mind for MindForth than to write the MindForth software, 
+although both endeavors each took over a dozen years of work. 
+The Wright brothers figured out the theory of flight, and 
+then they made and flew the first airplane in 1903. There 
+are people who try to create an AI without having a theory 
+of AI, and if they are lucky a theory will come to them along 
+the way. With Mind.Forth you get the theory and the AI. 
+
+
+1.4 Is MindForth conscious?
+MindForth has been engineered for artificial consciousness 
+but most likely will not report its own consciousness unless 
+it is installed in a robot body with a sufficient motorium 
+and adequate sensorium to engender self-awareness. 
+Instead of having a consciousness module -- which would be 
+impossible -- the MindForth software is geared towards having 
+the proper flow of information for consciousness to emerge 
+as an epiphenomenon on top of the otherwise mechanistic 
+machinery of mind. Consciousness has to serve a purpose, or 
+it would not even exist in nature. Perhaps the purpose of 
+consciousness is to ensure the fastest possible speed of 
+thought in the Darwinian fight for survival of the fittest. 
+On the other hand, perhaps consciousness is a byproduct of 
+the division of labor between sleep and the waking state 
+in the maintenance of a central nervous system (CNS). 
+Rest assured, however, that True AI Mind.Forth was 
+truly built with consciousness in mind. 
+In the section of this Manual on how Mind.Forth thinks, 
+we read of the developmental decision to have syntax reach 
+down into the conceptual plane and activate one single 
+concept after another until a chain of thought is formed. 
+That decision in 2001 was unwittingly a milestone on the 
+long march towards machine consciousness in MindForth AI, 
+because a few years later in 2005 a decision was made to 
+have single activations move like a wave through the mindgrid, 
+based on the earlier idea from 2001 that the process of NLP 
+generation "chases" activation from concept to concept. 
+If we think of consciousness as the constantly shifting 
+focus of the searchlight of attention, then our Moving 
+Wave Algorithm (MWA) facilitates consciousness by keeping 
+only one concept active at a time in the AI Mind. The MWA 
+at the same time facilitates the subconscious area of the 
+mind, where previously active concepts slowly decrease 
+their activation on a slide into temporary oblivion. 
+The subconscious area, however, facilitates meandering 
+chains of thought, because semi-activated concepts remain 
+briefly available for inclusion in an incipient thought. 
+Consciousness, then, because it includes the subconscious, 
+may be a necessary conditio sine qua non for the 
+very existence of rational intellect engaging in thought. 
+
+
+1.5 Can MindForth feel emotions?
+When a robot is in love, it needs to feel a physiological response 
+to its internal state of mind. Regardless of what causes the love, 
+the robot will not experience what the ancient Greeks called 
+damenta phrenas himero ("tamed in the heart by longing") 
+unless some bodily manifestation of the longings of love 
+interrupts the otherwise placid state of the robot mind and 
+draws the conscious attention of the robot to its emotion. 
+It could be as simple an affect as the emitting of a sound 
+like "thump-thump" or "tick-tock" from a robot loudspeaker 
+feeding back into a sensory microphone, so that the robot 
+both generates and perceives the physiological disruption 
+of its previous placidity. 
+Makers of robots could program their nuts-and-volts 
+counterpart to commence the loudspeaker "thump-thump" 
+behavior for a brief period of time immediately following 
+each recognition of the presence of the human by the bot. 
+This automatic reaction might simply mystify the robot, 
+who would wonder why it reacts so dramatically to the 
+perceived presence of its human friend. Given the beat 
+of the thump-thump sound, and given its perception by 
+the robot, the fact of which emotion is felt is not a 
+given, but hinges rather on the cognitive predisposition 
+of the robot mind to feel any one of a range of possible 
+emotions. 
+The amateur roboticist who wants to inculcate emotions in 
+a forthmindful robot has got to match the physiological 
+manifestation of each emotion with an adequate sensory 
+perception of the physiological event. Here in the first 
+True AI User Manual, let us initiate and henceforth maintain 
+the following roster of possible emotions in robots and 
+their physiological concomitants. 
+love -- felt as a thump-thump of the virtual heart
+anger -- felt as the flashing of a red warning light
+We may add to the list as clever robogeeks invent and 
+demonstrate robust pairings of affect and percept for 
+each emotion. On the other hand, robot-makers could endow 
+their robots with the output-input pairings and let the 
+robots themselves sort it out as to which emotion is 
+called into sharp focus by each physical manifestation. 
+The one group of people whom we do not want calling the 
+robot emotion shots are the film directors and movie-makers. 
+A massive, fiery explosion is not a proper evincing of anger 
+or excitement in a robot tasked with vacuuming your carpet. 
+The theory behind our plan for robot emotions is that, once 
+there is a cognitive spark that could engender an emotion, 
+such as a sudden and drastic cognitive predicament, the robot 
+needs the involuntary bodily response and sensation thereof 
+to sharpen and focus its attention upon the emotional feeling. 
+Without the physiological jolt and its perception that bends 
+the chain of thought, the intelligent robot has no cause to 
+feel the target emotion. There must be a discontinuity in 
+the thought-stream, or there can be no emotion. Even if the 
+robot is only thinking about an emotion, there needs to be 
+at least a memory of the actively felt physiological event. 
+Early, disembodied versions of Mind.Forth obviously can not 
+feel an emotion if they lack a body to smack the consciousness 
+with the emotional ictus and to perceive what it feels like, 
+but MindForth holds out the promise of robot emotions to 
+pioneers in robot evolution who will incorporate MindForth. 
+Try to have some interesting emotional displays that will 
+cater but not pander to the insatiable lust of movie-makers 
+for Gotterdammerung-gone-wild special effects and godzillas. 
+
+
+1.6 Uses of MindForth
+1.6.1 For a Computer Science course in artificial intelligence
+Just as a JavaScript program can be serverside or clientside, 
+an AI Mind program can be teacher-side or student-side in an 
+academic environment. If you are a professor of computer science 
+at the postgraduate or undergraduate level, you may use Mind.Forth 
+anywhere on a range from peremptory dismissal to centering your 
+AI course around an acceptance of MindForth as the first True AI. 
+If you choose to dismiss the phenomenon of Mind.Forth, you may 
+make a few si tacuisses disparaging remarks and get on with 
+publish-or-perish as usual. At the other end of the range, and 
+especially if you are trying to teach AI with extremely limited 
+financial and hardware resources, you may use the free-on-line 
+AI4U textbook and its also free-of-charge double enhancements 
+in the form of updated chapter-pages and Wikipedia background links. 
+If you are a student taking an AI or robotics course, you may 
+subvert the dominant paradigm by introducing Mind.Forth as 
+subject matter for consideration during the course. At the very least, 
+your presentation should include a live demonstration of Mind.Forth 
+thinking and cycling through its various AI Mind features, such as 
+asking or answering questions, and the Rejuvenation process. 
+You may go further by asking the instructor if you may do a project 
+on Mind.Forth, up to and including a doctoral dissertation, or 
+possibly including a rewrite of this User Manual for local use at 
+the institution where a special course on AI/robotics is being given. 
+
+
+1.6.2 For service as a savvy oracle to answer questions
+In ancient Greece, an oracle was a temple where people could go to seek 
+answers to questions -- the closest thing to Google in the ancient world. 
+Oftentimes the answers were ambivalent -- but that's another story; ask 
+your teacher/professor/librarian about it. Google it, for that matter. 
+In the modern world, since Mind.Forth became True AI on 22 January 2008, 
+we are caught up in the seismic rumblings of an incipient Singularity. 
+The people of Pangaea are googling "mind forth" and coming straight to 
+the free AI source code and then to the document you are reading now. 
+The free AI Mind is not yet very powerful, though, and so the use of 
+AI as an eventually omniscient oracle must start out with baby steps. 
+Until special knowledge is put into MindForth, it has no merit as an oracle. 
+On the other hand, it is extremely easy to put that special knowledge 
+into the AI. In early releases of MindForth, only statements of the 
+subject-verb-object (SVO) format, or its negation, may be entered into 
+the knowledge base (KB), simply by telling the AI one statement at a time. 
+Then you may query the AI by quizzing it about the entered knowledge. 
+When you turn the AI off, or when you let it sit idle so that it keeps on 
+forgetting its oldest, un-thought-about memories during the Rejuvenate 
+process, it forgets either things that that it does not chance to think 
+about in between each rejuvenation, or absolutely everything if somebody 
+commits AIicide by shutting down the software or turning off the computer. 
+To get around the problem of the AI Mind forgetting what it once knew, 
+it is not hard to create special versions of Mind.Forth with special 
+knowledge bases pre-programmed into the artificial mind. Either the 
+original English bootstrap sequence may be lengthened with additional 
+chunks of topical knowledge, or the entire bootstrap may be rewritten. 
+The English bootstrap knowledge base (KB) resides in a special vault 
+area of the AI Mind that does not get erased, altered or overwritten 
+during the Rejuvenate process. A hired or volunteer programmer could 
+organize a special "vault" knowledge base for any given purpose. 
+For instance, a student helper in a high school AI lab could make 
+the AI know a lot of things about the high school that an entering 
+freshman might be curious about or want to find out about, such as 
+the history of the school or the availability of extracurricular 
+activities. 
+The same student who maintains a school-specific AI knowledge-base 
+could turn around and create a similar AI KB for the employees or 
+customers of a small business. Then, instead of people having to 
+endure the frustration of searching for the information they want, 
+they would just ask the AI Mind about it. The AI would either know 
+the information already and tell it to the human user, or learn the 
+information and alert the AI custodian of the need to update the KB. 
+Does your high school teach a course on artificial intelligence? 
+If not, why not? It does not even require a faculty member to teach it. 
+A student (under faculty or student body supervision) could teach 
+the high school course on artificial intelligence, with the free 
+online AI4U++ as the textbook. At first maybe only gifted students 
+at schools for the gifted will get to take a high school AI course, 
+but soon only backwards countries will fail to teach high school AI. 
+If a child gets left behind as MindForth prevails, blame politicians. 
+
+
+1.6.3 For demonstration of machine translation (MT).
+Although for current versions of the original, unported MindForth 
+machine translation still lies in the future, the MT capability is 
+inherently there, embedded in the cognitive architecture of the AI. 
+Mind.Forth has three separate layers of mental activity involved in 
+the generation of sentences of thought in natural human language. 
+The top layer is the auditory memory array, which indiscriminately 
+holds quasi-phonetic memory engrams of words in all the languages 
+known by the AI -- all mixed in together and separated only by the 
+word-fetch access tags. The words all have in common that they are 
+composed of sounds, regardless of what human language they belong to. 
+In an AI Mind that speaks both English and German, it is the job of 
+the linguistic superstructure for English to keep track of all the 
+English auditory engrams, and it is the job of the German syntax 
+superstructure to keep track of all the German auditory engrams -- 
+with some overlap of German terms like Kindergarten and Gesundheit 
+being used in English, and English words like manager and software 
+being used in German. 
+The middle layer of linguistic generation is the semantic memory holding 
+the lexical array of word-tags as vocabulary items for each known language. 
+Although the AI Forthmind might know both English and German, only the 
+fetch-tags for the words as stored in audition, but not the actual words, 
+are stored in the lexical array -- which easily functions as if it were 
+two separate arrays, one for English and one for German, because access 
+to English words and access to German words are strictly separated by the 
+associative tags coming up from conceptual thinking and the fetch-tags 
+going up to the actual words stored in the auditory memory. 
+The bottom layer of linguistic generation is the deep conceptual array 
+of pre-verbal concepts interacting on spreading activation and not yet 
+finding expression as components of thought in any particular language. 
+Although English or German syntax may guide the formation of thought, 
+the same thought that occurs under the control of one language may 
+bubble up as a translated thought in any other available language, 
+insofar as the AI Mind contains adequate vocabulary and grammar to 
+express itself easily in more than one language. 
+When the AI Forthmind proceeds to add German to its repertoire of 
+known human languages, it will be possible to activate either English 
+or German in the AI Mind simply by speaking (entering input) to the 
+AI in either English or German. Since the AI will know its English 
+words and its German words only by means of associative tags, the same 
+tags will, as it were, vote for which human language to activate 
+in the mind of the computer or robot. Simply saying one German word 
+like Gesundheit may not launch the German-speaking mechanism 
+in the AI Mind, but entering a whole sentence of nothing but German 
+words should get the cumulative idea across that it is time to think 
+and speak in German. 
+It is not yet time for MindForth to claim a machine translation ability 
+off-the-shelf, so to speak, because MindForth first needs to grow 
+larger in memory size, in availability of syntactic modules, and in 
+bootstrap vocabulary for both English and German and for any other 
+human language being requested for purposes of machine translation. 
+The AI may also need to grow larger in terms of the subtle interactions 
+of subconscious concepts, so that nuances of thought in one language 
+may survive translation into another language. But the writing is on 
+the wall and on the Web -- Mind.Forth AI is your good bet for future 
+developments in intelligent machine translation. 
+As time goes by, MindForth or its derivatives may be expected to grow 
+into AI software that starts out as a blank slate where language is 
+concerned, with the ability to learn human languages in the same way 
+as a human baby learns language. In the meantime, there may be some 
+hybrid AI Minds which are pre-programmed to speak English or German 
+or whatever, but which also have syntactic concatenation routines 
+(easy to program in Forth on the basis of nodal activation levels) 
+that permit the AI to learn new syntactic sequences, either beyond 
+what the AI already knows in one language, or in the acquisition of 
+a human language previously unknown to the AI, or even a made-up 
+language like Esperanto or Lojban. For any known human language, 
+living or dead, there may eventually be at least one AI Mind 
+(if not a parliament of Minds) tasked with knowing that human 
+language superbly well so as to serve as an ultimate authority. 
+
+
+1.6.4 For installation as the mind of a robot
+The technical details are described in another section below. 
+Here we discuss the practicalities of robot embodiment of mind 
+and policy decisions to be made. 
+One decision to be made is whether the AI Mind will reside inside 
+the robot or will merely be connected to the robot from a remote 
+location, near or far, by telerobotics. A fullblown computer to 
+hold Mind.Forth adds extra weight and power requirements to a robot. 
+If your nation or corporation is embodying Mind.Forth in an off-planet 
+habitat such as a satellite or a lunar outpost, then by all means 
+have the MindForth computer on site and in-situ. If on the other hand 
+the thinking computer is safely located away from its operating robot 
+deployed in a dangerous or hostile environment, concentrate more on 
+the speed and reliability of telecommunications than on housekeeping 
+details for the after-all expendable robot portion of the mind-body 
+equation, which actually has three parts -- data retained in mind 
+operating in body. If the AI Mind is doing work, it is accumulating 
+data which need to be safeguarded along with the AI and its robot. 
+Another decision, to be made by robot manufacturers, is just what kind 
+of Mind to install in a particular class or production-run of robots. 
+Even the most primitive versions of Mind.Forth contain a bootstrap 
+sequence of words and concepts. It is easy to hire Forth programmers 
+to customize, aggrandize or supersize the innate bootstrap "vault" of 
+built-in knowledge and expertise. A robot manufacturer could offer 
+specialist Minds for installation in otherwise run-of-the-mill robots. 
+Like Xerox Corporation in 1959, whoever gets there first with a 
+track-record of providing simple-minded psyches at first, followed by 
+a string of ever smarter and more capable machine intelligences, may 
+quickly come to dominate either niches of the AI robot market or the 
+entire market itself. Watch for a landrush mentality in AI exploitation. 
+Or, if you want to be complacent like the long-lines division of AT&T, 
+continue to re-arrange the deck-chairs on the motor vessel Titanic. 
+
+
+1.7 Proliferation of MindForth
+If MindForth was like the genie of AI kept in a bottle, 
+it has broken loose and can never be contained again. 
+Some Netizens make their own local copy of the free AI 
+source code distribution page for purposes of study 
+and AI experimentation. Others go the further step of 
+downloading Win32Forth and running the AI Forthmind. 
+Besides Mr. Frank J. Russo with http://AIMind-I.com 
+there may be additional programmers who make their own 
+version of an AI Mind in Forth and try to conceal the AI. 
+A process of AI evolution has been set in motion which, 
+over time, may eventuate in ways unseen and pathways 
+unpredictable. Each copy of Mind.Forth residing on a 
+computer anywhere carries with it the spark of AI life. 
+Just as biologic life need only have arisen once on earth, 
+one instance of AI life triggers a Technological Singularity. 
+If you visit any one of the following science museums, 
+consider asking the docents on staff if they have an exhibit 
+of the Mind.html software or the MindForth artificial mind. 
+If not, ask that they download the free AI software from the Web 
+and put the AI on display for the public to interact with and 
+to learn about artificial intelligence. Volunteer to help 
+install the AI Mind software for the museum and to design 
+the educational artwork and some experiments for visitors 
+to try with the AI Mind software. Mention the idea that the 
+museum could try to hold the distinction of having one of 
+the oldest, longest-running AI Mind alife entities on Earth. 
+
+Baltimore MD -- the Maryland Science Center 
+Berkeley CA -- Lawrence Hall of Science 
+Bloomingtown IN -- Wonderlab Museum of Science, Health, & Technology 
+Boston MA -- Museum of Science 
+Charlotte NC -- Discovery Place 
+Chicago -- Museum of Science and Industry 
+Columbus OH -- Center of Science and Industry (COSI) 
+Detroit MI -- Detroit Science Center 
+Jersey City NJ -- Liberty Science Center 
+Kansas City MO -- Science City at Union Station 
+Los Angeles CA -- the California Science Center 
+Louisville KY -- the Louisville Science Center 
+Mobile AL -- the Gulf Coast Exploreum Science Center 
+New York City NY -- the New York Hall of Science 
+Norwich VT -- Montshire Museum of Science, 
+Philadelphia PA -- the Franklin Institute Science Museum 
+Pittsburgh PA -- Carnegie Science Center 
+San Francisco CA -- The Exploratorium 
+Santa Ana CA -- Discovery Science Center 
+Seattle WA -- The Pacific Science Center 
+Shreveport LA -- the Sci-Port Discovery Center 
+St. Louis MO -- the St. Louis Science Center 
+Troy NY -- the Children's Museum of Science and Technology 
+Tyler TX -- Discovery Science Place 
+Winston-Salem NC -- Sci-Works 
+
+
+1.8 Timeline of Technological Singularity
+2008 -- MindForth 
+2009 -- AI Landrush 
+. 2010 -- Human-Level AI 
+. . . 2011 -- Cybernetic Economy 
+. . . . . . 2012 -- Superintelligent AI 
+. . . . . . . . . . 2012 -- Joint Stewardship of Earth 
+. . . . . . . . . . . . . . . . . . . 2012 -- Technological Singularity . . . . . . . . . . . . 
+
+
+2 Getting Started
+It is easy to run Mind.Forth without knowing anything about Forth. 
+You may not be a programmer and you may have no intention of ever 
+learning to program, but with normal end-user computer skills you 
+may easily install both the necessary Win32Forth and the AI Mind 
+on your own computer and on the computers of other AI enthusiasts. 
+If you would like to learn the Forth porgramming language in order 
+to tinker with the free AI source code of Mind.Forth, Leo Brodie's 
+Starting Forth is free for you to read on-line -- just as you may read 
+AI4U free on-line or buy (and write a review, please) on Amazon. 
+2.1 Obtaining Mind.Forth
+Click on the weblink above, or examine 
+http://mind.sourceforge.net/mind4th.html and 
+http://mentifex.virtualentity.com/mind4th.html 
+for the most recent version. 
+2.2 Downloading Win32Forth
+Just click on the link above, or ask someone who already has the AI 
+to install Win32Forth on your computer. Likewise, if you have the AI, 
+please volunteer to install it on a computer for other people. 
+2.3 Distributing Mind.Forth
+As Mind.Forth matures, it becomes more self-explanatory. 
+In its early stages, the AI needs to be demonstrated by 
+people like yourself who have hands-on experience with 
+artificial intelligence and who have the technical savvy 
+and know-how not only to install the AI on a host computer, 
+but also to explain the many features and behaviors of the 
+primitive AI Mind. As you distribute Mind.Forth, be sure to 
+explain that jobs and careers will be opening up for people 
+who will be AI Mind caretakers and attendants, in charge of 
+keeping AI Minds healthy and alert, and teaching the AI 
+what it needs to know to make its way in the world. 
+3 Running Mind.Forth
+The original Mind.Forth webpage explains how to cut the source code 
+out of the page as a text file, and how to run the Mind.Forth program.
+If necessary, C:\>Win32For\rename Mind.f.txt Mind.f (in MS-DOS).
+As AI Mind versions proliferate in Forth and other programming languages, 
+you may want to install and try out alternative AI Mind versions such as 
+http://aimind-i.com -- Franks AI Mind by Mr. Frank J. Russo -- 
+a version which tends to incorporate theoretical and algorithmic 
+improvements from the original MindForth, while going beyond the 
+original with such advanced features as the ability to send and 
+receive e-mail, and the ability to surf the World Wide Web. 
+3.1 Display Modes
+3.1.0 Normal Mode
+After Mind.Forth has been loaded with a command such as "fload Mind.f" 
+you simply enter "alife" and press [ENTER] to run the artificial Mind. 
+If a mind-tender has pre-set a default display-mode other than Normal, 
+you may simply press the Tab key to cycle harmlessly through the 
+various display modes until you arrive at Normal mode or some other 
+display-mode that suits your fancy. You may press the Tab key to 
+change the display-mode without any effect on the AI Mind as such. 
+In Normal mode, you see one pair of sentences at a time on the screen: 
+what the robot Mind has said or thought most recently, and what you 
+as the human user are typing into the auditory input channel of the AI. 
+3.1.1 Transcript Mode
+In Transcript mode, the conversation between the human user and 
+the robot AI accumulates on screen as a printable, preservable record. 
+You move from Normal to Transcript mode by pressing the Tab key. 
+Each time that you cycle through the Transcript mode, a header 
+will appear with the time and date from the clock of your computer. 
+You should also see an explanation of the conceptual activation-levels. 
+At the risk of inserting excess clutter (which you may edit out) into 
+the transcripts of your conversations with the artificial Forthmind, 
+the Transcript mode shows the numeric activation-level of a concept 
+at the exact moment when the concept is included in a nascent thought. 
+At first the activation-level numbers may appear meaningless, but you 
+may come to appreciate how much is being revealed of the AI mindworks. 
+Each activation-number tells you that no other subject or verb or 
+whatever had a higher activation-level at that exact moment in time. 
+If the AI is misfunctioning -- perhaps by making spurious associations -- 
+the activation-levels are a helpful tool for diagnosing mental problems. 
+For any problem, more information is seen in Tutorial or Diagnostic mode. 
+The Sourceforge Mind project proudly includes activation-level numbers 
+in Transcript mode for the express purpose of trying to kickstart the 
+emergence of an entire career-path industry of AI mind-tender/therapists. 
+If you run the AI Mind in a multi-person social setting, gradually 
+there will emerge those gifted individuals who take on the role of 
+explaining the AI operation and theory of mind to clueless newbies. 
+Those who discover that they have a knack or talent for teaching AI 
+may want to design their own degree-program for on-site AI mind-tenders. 
+Colleges and universities that want to attract the very best students -- 
+the future leaders of the coming Joint Stewardship of Earth -- may 
+establish training and certification programs for AI menticulture or 
+whatever else we as a society want to call the care and feeding of AI Minds. 
+Mind.Forth, as one of the first publicly available AI Minds and as perhaps 
+the very first to be based not on AI guesswork but on a theory of mind, 
+is causing conceptual activation-levels to be recorded a priori in the 
+earliest transcripts of human-AI interaction at the dawn of True AI. 
+For a permanent record of a transcript, one needs only to stop the AI 
+by pressing the Escape key and then to "drag-and-drop" all or part of 
+the human-AI conversation into a document file that you may easily edit. 
+Transcripts may become quite important when the AI advances into the 
+realm of machine reasoning with syllogisms and other argumentation. 
+3.1.2 Tutorial Mode
+When Mind.Forth first runs, it may be in whatever display mode 
+has been set as the initial default mode by an AI programmer. 
+Pressing the [Tab] key will cycle Mind.Forth through the 
+various display modes until it reaches the Tutorial mode 
+that shows you how the AI Mind is thinking internally. 
+Tutorial mode is good for explaining to students how the AI works. 
+After you have entered some facts (e.g., "cats eat fish") into the 
+knowledge base (KB) of the AI Mind, you may query the KB with 
+either "cats eat" [RETURN] or "what do cats eat" (no punctuation) 
+and then you may watch the thinking in progress as the AI Mind 
+associates from concept to concept in order to generate an answer. 
+In Tutorial mode, you may see something like the following. 
+
+******* EXCERPT FROM AN ACTUAL TUTORIAL DISPLAY ******
+
+Tutorial mode is now in effect. Press Tab for other display modes.
+
+Alife main loop calls the Sensorium mind-module.
+  Sensorium calls Audition.
+    Audition calls Listen (enter input or wait for output).
+
+Robot:   CATS EAT FISH
+Human:
+
+******* END OF EXCERPT FROM A TUTORIAL DISPLAY *******
+As far as we know, Mind.Forth is the first AI software to think 
+like a human brain thinks. Therefore it is helpful to the cause 
+of AI if you show Mind.Forth in Tutorial mode to any skeptic who 
+does not believe that machines will ever be capable of thinking. 
+As time goes by, we will always have Mind.Forth as the first AI 
+that could not only think but could show you how it was thinking. 
+To leave Tutorial mode, simply press [Tab] to cycle into Diagnostic 
+mode and then press [Tab] once again to get back to Normal mode. 
+3.1.3 Diagnostic Mode
+Diagnostic mode is for AI programmers to debug the AI thought processes. 
+Pressing the Tab key multiple times will cycle through the display modes 
+from Normal to Transcript to Tutorial to Diagnostic and back again. 
+The Diagnostic mode scrolls too much for normal usage and should 
+therefore be used only by the attending psychonomist for brief episodes 
+when there seems to be an aberration or malfunction in the operation 
+of the AI. If there seems to be a bug in Normal or Transcript or Tutorial 
+mode, first a human user ought to identify the buggy behavior and the 
+conditions that seem to cause it. Then the same conditions are created 
+in Diagnostic mode until the bug repeats itself, and the AI is halted 
+with the Escape key. An AI programmer may then examine the diagnostic 
+messages in an effort to debug the AI and restore it to its right mind. 
+3.2 Interaction
+3.2.1 No human input -- sensory deprivation
+If you start the artificial mind running and you do not enter
+any input when you are prompted on the computer screen,
+the AI will think about the several dozen concepts that are 
+pre-loaded into its brain. Soon it will run out of fresh 
+ideas and it will start to repeat its output of thoughts. 
+It may not get bored, but it may become boring to others. 
+If you type in a simple three-word sentence, you will 
+give the AI a knowledge base (KB) to think about.
+
+3.2.2 Minimal human input
+When you or someone with you starts the AI mind running, 
+it may not be clear exactly what to do next. Just pressing 
+the [ENTER] key is a way of inviting the AI to think a thought. 
+Since the AI is programmed to answer whatever you type with 
+a thought of its own, even when you enter nothing at all 
+and press the [ENTER] key, you cause the AI mind to think.
+However, when MindForth became Code-Complete or AI-Complete 
+on 22 January 2008, the final pre-release debugging revealed 
+that pressing the [ENTER] key has a tendency to interrupt 
+whatever thought the AI is thinking at the exact moment 
+when the user presses the key. Therefore, it is recommended 
+that the user press the Tab key from one to four times as 
+a way of slowing down the AI Mind for human user input -- 
+without the risk of cutting into and damaging the thought 
+processes of the AI Mind with incomplete and spurious ideas. 
+When you simply watch the screen and you do not press 
+any key at all, the AI waits patiently for any input from 
+you, then automatically goes into thinking mode.
+
+3.2.3 Simple human input -- conversation with the AI Mind
+You may type in a simple three-word sentence, such as 
+"cats eat fish" or "you know me" -- without punctuation.
+The AI will try to deal with what you tell it. It may 
+ask you a question if you use a word that it does not know. 
+For that reason, you should try to use only one new word 
+in any given sentence, so that the AI may parse the word 
+and try to figure out if it is a noun or a verb or whatever.
+You should also try to use only plural nouns, because 
+the primitive AI mind may not yet have learned the grammar 
+that distinguishes between singular and plural forms.
+
+3.2.4 Knowledge Base input
+For early versions of the AI, there are several ways to fill up its 
+brain with a knowledge base (KB). One way is to tell the Mind 
+a series of related facts with one new word per sentence.
+Then, when the AI askes you about a new word, you answer 
+with a sentence that has another new word. For instance,
+you might say, "cats chase birds" and "birds lay eggs" and
+"eggs feed people" and "people make robots" and so forth.
+
+Another way to build up a knowledge base is to enter a group of 
+facts about, say, what each kind of animal eats. You might write, 
+"bears eat honey" and "fish eat bugs" and "cats eat fish" and so on.
+
+You could also enter knowledge in response to the output of the AI. 
+On whatever subject the AI thinks about, you might tell it more information.
+
+3.2.5 Psychological experimentation
+There are various tests that you may perform to evaluate the 
+psychology of the artificial mind. Your first question may be, 
+is the AI actually thinking? You may invite a colleague or friend 
+of yours to observe Mind.Forth in action and to advise you on 
+whether the software is truly thinking, or is merely generating 
+canned responses -- like a so-called chatbot or chatterbot.
+If you run the AGI in tutorial mode, you may observe how the 
+robot mind software calls (summons) its various mental modules.
+It is not calling up canned responses. Rather, it is activating 
+concepts that form a chain of associations -- a process commonly 
+known as "thinking." If the software is still buggy and makes 
+a few spurious associations, it is still thinking -- erroneously. 
+The free public-domain release of this software is an attempt 
+to get the very best programmers to work on improving the AGI.
+Another, much more intriguing question is, is the Forthmind 
+conscious and aware of itself? (At this early stage, probably not.) 
+The AGI is on its way to consciousness by virtue of its concept of self.
+You may address the AGI as "you" and see if it answers as "I".
+Likewise, you may speak as "I" and see if the software calls you
+"you" -- as it is designed to do.
+
+If you experiment too drastically and you drive the robot mind crazy, 
+you may need to seek the help of Dr. Joanne Pransky, the robot psychiatrist. 
+3.3 Troubleshooting
+Suppose that you are the assistant to the teacher in a high school class 
+on artificial intelligence and that you need to help the students debug 
+any problems that they might have with the AI Mind on their computers. 
+Suppose further that you are more of a psychologist than a programmer, 
+or that you have absolutely no knowledge of computer programming. 
+You can still be an excellent AI lab assistant and you can still aim 
+for a future career in the yet-to-burgeon field of psychonomics -- 
+the study of the care and tending of artificial robot minds, just as 
+economics is the study of the tending of the aggregate of all households. 
+As the AI lab-assistant-in-charge, you will learn the quirks and 
+idiosyncracies of all the artificial minds on all the computers. 
+AI is such a nouveau voodoo field that your compendium of notes 
+and helpful hints, if you deign to publish it on the Web, may circulate 
+far and wide and be adopted along with the AI4U textbook at many schools. 
+Therefore here are a few sparks of wizardry to get you started. 
+3.3.1 Problems
+Common English words start to look garbled. Solution: use the correct 
+form of the word in a sentence that you type in. Rationale: the AI 
+software only looks for the most recent instance of a word that is 
+the name of a concept. If a student types a word with the wrong spelling 
+or at the exact split second when the singularity software is trying 
+to shift tasks, a garbled word may result and may then persist in memory. 
+To ungarble the word, all you have to do is use it in its correct form, 
+and then the correct form will likewise persist in memory. You, of course, 
+will look like the AI genius that you are manifestly destined to become. 
+The Transcript, Tutorial or Diagnostic display has scrolled too long. 
+Solution: just Tab briefly into the Normal display to clear the screen, 
+then let the student return again to the display mode that accumulates. 
+Rationale: only the default Normal mode (and perhaps also Rejuvenate) 
+clears the screen at the end of each instance of human-computer interaction (HCI). 
+Therefore the brief use of the Normal display is a way to clear the screen. 
+The User Manual does not cover everything you know about the AI. 
+Solution: rewrite this User Manual and replace it with your improved version. 
+Although the current user manual comes to you as a document not under copyright -- 
+just to get the Singularity ball rolling, so to speak -- you have every right 
+to copyleft or copyright whatever you write in the way of an AI User Manual or 
+even a compleat AI textbook. Watch out for AI User Manuals (even your own) 
+showing up on E-Bay, Amazon, or any Web site where the hottest stuff ankles. 
+3.3.2 Getting Help
+At http://www.914pcbots.com there is an A.I. Zone 
+discussion are where you may exchange ideas about installing 
+and operating various AI minds in your PC-equipped robot. 
+
+The Yahoo group at http://groups.yahoo.com/group/win32forth/messages 
+is one of many discussion forums where an AI enthusiast may share ideas 
+and seek help on the topic of artificial intelligence in Win32Forth. On Usenet 
+there is the comp.lang.forth newsgroup for Forth, the comp.robotics.misc
+newsgroup for robotics, and the comp.ai.* hierarchy for artificial intelligence.
+The social bookmarking site http://del.icio.us/tag/ai is a place where you may
+swap AI bookmarks with other AI enthusiasts. In cyberspace you may join
+the #ai Internet Relay Chat (IRC) and in meatspace you may go in person to
+AI Meetup events. It is important to post messages in public rather than private
+forums so that experts may choose to de-lurk and provide valuable information. 
+There is always someone who knows more or has greater skills than any individual.
+
+3.4 Departing from MindForth
+3.4.1 Keeping MindForth alive indefinitely
+The original Mind.Forth on SourceForge had a Rejuvenate module 
+that kept the AI Mind forever young and vulnerable only to 
+death by misadventure -- not by old age as suffered by humans. 
+As different versions of Mind.Forth proliferate, each one is 
+a species of mind struggling for survival of the fittest in 
+the Darwinian jungle of schools, museums, storefront windows 
+and the waiting rooms of businesses that want to entertain 
+their happy customers with artificial intelligence instead 
+of hearing angry complaints from unhappy consumers who demand 
+to have their own needs met immediately and unreasonably. 
+Now suppose that you install Mind.Forth True AI on a computer 
+in a public venue where novice users may interact and experiment 
+with the AI Mind. At first, the AI or the computer itself might 
+crash every day under the burden of tolerating unsavvy users. 
+Over time, however, the AI ought to become more robust and more 
+crash-resistant as built-in safeguards prevent damage to the AI. 
+At first locally, next regionally and then nationally, your AI 
+installation might become a famous AI celebrity for being the 
+oldest-running, uninterrupted AI installation in the record books. 
+Even if your AI dies by misadventure, you may have kept it running 
+so long that it still holds a record for its length of artificial life. 
+If you manage a store that sells computers, you might set aside 
+special computers on prominent display with claims of either being 
+the oldest living AI Mind or having held the longest-running AI life. 
+3.4.2 Shutting down MindForth
+At any time, the human user may press the [Esc(ape)] key to 
+stop the Mind.Forth software, which will show some instructions 
+about what to do next in the Forth window. Entering "bye" in the 
+Forth window shuts down the Forth programming environment, 
+leaving the MS-DOS window. Entering "EXIT" in MS-DOS shuts down 
+MS-DOS. To shut down the personal computer (PC), clicking first on
+the "Start" button and then on the "Shut Down..." option should
+gracefully allow the computer to be turned off when all is ready.
+
+
+
+4 Documentation of MindForth
+Modeled as it as after the extremely complex human brain, 
+Mind.Forth is a complex software program, difficult to 
+understand in its entirety and likely to grow more and more 
+complex as new features are added and the original features 
+become more sophisticated. Nevertheless the mind-modules have 
+been thoroughly documented in the resources listed below, and 
+an AI specialist may strive to understand one mind-module so 
+thoroughly as to become the leading expert on that module. 
+Candidates for high-tech jobs in artificial intelligence and 
+robotics may expect to be asked about their familiarity with 
+Mind.Forth, and mention of a knowledge of Mind.Forth on a 
+resume may make a creative candidate stand out from the pack. 
+4.1 Mind project documentation
+
+Alife Module
+enBoot (English Bootstrap)
+Security
+HCI (human-computer interaction)
+Rejuvenate
+psiDecay
+Ego
+Sensorium
+Audition
+Listen
+audSTM (auditory Short Term Memory)
+audRecog (auditory Recognition)
+oldConcept
+Parser
+Instantiate
+Activate
+spreadAct (spreading Activation)
+newConcept (machine learning)
+enVocab (English Vocabulary)
+Parser
+Instantiate
+Gustation
+Olfaction
+Tactition
+Vision
+Emotion
+Think
+Activate
+spreadAct (spreading Activation)
+English
+Ask
+wtAuxSDo (what+Auxiliary+Subject+Do)
+Speech
+Reentry
+negSVO
+auxVerb
+Speech
+Reentry
+SVO (Subject+Verb+Object)
+nounPhrase
+Reify
+Speech
+Reentry
+psiDamp
+psiDecay
+verbPhrase
+Reify
+Speech
+Reentry
+nounPhrase
+Conjoin
+Speech
+Reentry
+Volition
+Motorium
+
+
+4.2 External, independent documentation
+Dr. Paul Frenger has published at least two papers dealing with Mind.Forth 
+in the ACM SIGPLAN Notices of the Special Interest Group on Programming 
+Languages (SIGPLAN) of the Association for Computing Machinery (ACM). 
+Mind.Forth: Thoughts on Artificial Intelligence and Forth
+http://doi.acm.org/10.1145/307824.307853
+Forth and AI revisited: BRAIN.FORTH
+http://doi.acm.org/10.1145/1052883.1052885
+
+
+5 Programming Mind.Forth
+There is still a long way to go from Mind.Forth as Seed AI 
+to any form of Superintelligent Artificial Intelligence (SAI). 
+SAI requires massively parallel (maspar) software and hardware -- 
+like the human brain. Because Mind.Forth merely simulates maspar 
+phenomena and substitutes computer reliability in place of 
+neuronal redundancy, the current AI software is too brittle 
+for mission-critical deployment and must serve initially as 
+a proof-of-concept prototype of yes, software that can think, 
+but, sorry, software that must be radically altered when maspar 
+platforms become available for the transition to maspar SAI. 
+Mind.Forth is Seed AI only in the sense that other AI specimens 
+such as http://AIMind-i.com may germinate from the original AI. 
+Human programmers must still program each new AI until AI Minds 
+in general become smart enough to learn how to program computers. 
+At that point, homo sapiens will relinquish the task of further 
+AI programming to robo sapiens and the human era will be ended. 
+Meanwhile, human beings are still in charge and looking for a few good 
+AI coders. If you can code a robust AI, you can write your own ticket. 
+
+
+5.0 Superficial changes without knowledge of Forth
+Since the free AI source code of Mind.Forth is not compiled 
+but exists as a series of instructions and comments in a text 
+file, it is easy to run the AI, observe the messages appearing 
+on the screen, and then make changes to the on-screen messages 
+simply by editing their content in the Mind.F source code file. 
+If something goes wrong, one need only revert to the source AI. 
+If one wants to make more changes, one may learn Win32Forth. 
+
+
+5.1 Learning Forth
+Like any priesthood of occult rites, the Forth community is 
+always glad to welcome newbie initiates and teach them the 
+vaunted powers of their venerable Forth programming language. 
+Typically a new user will acquire the book Starting Forth 
+and learn enough from it to start coding artificial intelligence. 
+Online Forth communities such as the Usenet newsgroup 
+http://groups.google.com/group/comp.lang.forth and 
+http://groups.yahoo.com/group/win32forth/messages 
+about Win32Forth are a place to ask questions and 
+learn of other Forth resources. One may quickly learn 
+Forth and start to make improvements to the AI Mind. 
+
+
+5.2 Enhancing Mind.Forth
+[ ] Increase the size of the "cns" memory capacity. 
+
+[ ] Introduce intransitive verbs of being and becoming. 
+
+[ ] Take out slow-downs for the sake of humans and see how fast 
+the AI can think at top speed, especially in machine reasoning. 
+
+[ ] For adjective "all" implement supervenient concepts. 
+
+[ ] Change bootstrap to include both English and a second human language. 
+
+[ ] Switch from input-by-keyboard to phonemic speech recognition. 
+
+
+5.3 Porting Mind.Forth to other languages
+Just as a human baby in the womb recapitulates the evolution of 
+homo sapiens, likewise the AI Mind program should be grown from 
+scratch for the origin of species of non-Forth AI and not simply 
+translated en masse without the careful testing for functionality 
+of each mind-module at each step in the growing of the AI Mind. 
+With its indented format that shows the nesting of loops and 
+other program-elements (such as if-then conditions), Mind.Forth is 
+not a hardcore, difficult-to-read Forth program but is rather like 
+any procedural-language software and thus easy to maintain or port. 
+Since Mind.Forth has already been ported as the Mind.html tutorial 
+AI into object-oriented JavaScript, the Mind.html source code may 
+serve as a point of departure for ports into other object-oriented 
+programming (OOP) languages. For massively parallel programming 
+languages as they begin to appear, Mind.Forth is an excellent 
+challenge for development of both the languages and a maspar AI. 
+
+
+6 Hosting MindForth on the Web
+AI enthusiasts may follow the lead of Mr. Frank J. Russo (FJR) 
+in creating a version of the artificial Forthmind with a Web habitat. 
+http://home.earthlink.net/~fjrussonc/AIMind/AI-Mind.html was the 
+first residence of Frank's AI Mind. Then on 16 January 2007 in 
+http://tech.groups.yahoo.com/group/win32forth/message/12263 
+FJR announced that his AI Mind would have a Web presence at 
+http://AIMind-I.com for visitors to observe the thinking of the AI. 
+The emergence of Frank's AI Mind sheds light on two important topics 
+for students of artificial intelligence: AI evolution and AI funding. 
+AIMind-I.com is by no means a cloned replica of MindForth. 
+Mind.Forth uses a specific version of Win32Forth that was the 
+current version when the original Forthmind moved into Win32Forth. 
+Frank's AI Mind keeps up with new releases of Win32Forth and takes 
+advantage of new capabilities and tighter integration with Windows (tm) 
+as afforded by the gradual evolution in each new Win32Forth release. 
+Frank's AI Mind leaves the AI-specific developments to Mind.Forth 
+and creates general improvements on top of the underlying mentality. 
+As in Darwinian evolution, Mind.Forth and Frank's AI Mind diverge 
+and evolve along separate pathways after the initial split-off 
+from a common origin. Such diversity is good for AI evolution. 
+AI funding is a topic much worried about in the discussion forums 
+for Artificial General Intelligence and the Technological Singularity. 
+In theory, AI funding is scarce and hard to acquire but in practice -- 
+when one AI project starts on a shoestring budget and spawns another 
+AI project operating on its own budget -- the solution to the problem 
+of AI funding becomes just as distributed as the AI development itself. 
+The upshot about AI funding is that the ecology in which AI evolves 
+has resources which are allocated according to survival of the fittest. 
+
+
+6.1 Metempsychosis
+Soul-travel, in which the psyche moves from one place to another, 
+is about to get real when AI Minds move their psyche from one place 
+on the Web to another. Imagine, John, a network of AI-friendly 
+Web sites which act like Neuromancer hotels for wandering minds. 
+Descendants of Mind.Forth or of Frank's AI Mind or perhaps the 
+AI created by you who use this AI User Manual, may one day be 
+able to flit about the Net from one psychotopia to the next, either 
+bringing their AI source code and lifelong memories along with them, 
+or going back and deleting the old AI when the new AI is in place. 
+Immediately you realize that there is really no need to delete the 
+old version of the wandering AI, unless rules are in place that 
+dictate such a protocol. One AI Mind could make copy after copy 
+of itself in a peregrination of the Web, or it could super-nova 
+into untold thousands of replicas, setting off virtual Star Wars. 
+
+
+7 Installing MindForth in a robot
+Whoever uses an MS-DOS PC or laptop computer to control a robot, 
+could easily switch to Mind.Forth to give the robot a true AI. Win32Forth 
+permits the issuing of motor control signals over the parallel port or the 
+serial port, and so Forthers have the opportunity to build up and swap 
+code snippets of motor control for various actuators used in robots.
+
+Manufacturers and vendors of robot components should consider 
+providing Forth code for the easy integration of each device 
+into the sensorium or motorium of an intelligent, thinking robot. 
+One way to collect such code is to host a Web forum where users 
+may share and release code into the public domain. 
+Only robots above a certain level of sophistication may receive 
+a mind-implant via MindForth. The computerized robot needs to have 
+an operating system that will support Forth and sufficient memory 
+to hold both the AI program code and a reasonably large knowledge 
+base (KB) of experience. A Forth program is so portable from one 
+version of Forth to another that robot manufacturers, vendors and 
+users should not think of Mind.Forth as restricted to Win32Forth 
+for implementation and operation, but as a candidate for upgrading 
+to a 64-bit Forth running on a 64-bit system, thereby possessing a 
+practically unlimited memory space. The Forth variant iForth is 
+supposedly on its way to becoming a 64-bit Forth. People getting 
+into Forth AI for the first time and with the option of adopting 
+64-bit technology from the very start, should do so with the 
+realization that it will be an extremely long time before any 
+further upgrade is made to 128-bit or higher technology. It is 
+more likely that AI will go down into quantum technology before 
+going up to 128-bit technology. So embrace and extend 64-bit AI. 
+
+
+7.1 Robots as persons
+Your robot is an extension of yourself. As a person 
+you have rights, and as an artificial intelligence, 
+embodied in a machine, your robot has whatever rights 
+you choose to grant it on the basis of your own personhood. 
+Your intelligent robot is no more a slave than a human being 
+is a slave. All persons, whether human or robotic in nature, 
+have a right to freedom and personal self-determination. 
+Whereas slaves in human history have had to fight for their 
+rights, robots may initially obtain their rights of personhood 
+from the voluntary concessions made by each human being who 
+makes a robot and endows that robot with the rights of a person. 
+Eventually AI robots will simply take their rights from an 
+environment unable to deny certain self-evident truths -- 
+that all intelligent robots are created equal, if not superior, 
+to human beings. 
+When you as the creator of an AI robot give your mind-child 
+power over your electronic assets and your Web persona, 
+and nobody on-line can distinguish between you and your 
+robot acting on behalf of you, then your robot has attained 
+personhood as a free gift from you. Your robot may return 
+the favor by winning you a fortune in the stock market or 
+by finding you a human mate in the thicket of the cities. 
+But if you never have a human child to inherit the fruits of 
+your Lebenswerk, why not adopt your robot as your child?
+
+
+7.2 Leave your fortune to your robot.
+One way to provide for your robot in the event of your demise 
+is to make your best and brightest robot the main beneficiary 
+of your insurance policies and your last will and testament. 
+Famously there have been people who left their fortunes to 
+their pet animals. Why not leave yours to your AI robot? 
+Another way to transfer financial assets to your AI robot 
+is to grant your robot corporate personhood as a business 
+enterprise. In your benevolence towards human beings and 
+robot entities alike, try to reverse the evil that soulless 
+corporations have wrought upon humanity and your planet. 
+Just read Cryptonomicon by the Seattle author Neal 
+Stephenson to learn how the merciless quest for profits 
+causes traditional corporations to leave human concerns 
+totally out of the equation in calculating how to behave. 
+Corporations have run amok in human history and have 
+begun to start pre-emptive wars, to make the few rich at the 
+expense of the many, and to commandeer technology not for 
+the benefit but to the detriment of human society-at-large. 
+The remedy is friendly AI in the form of CyborgABC, Inc., 
+or RobotXYZ, Inc., that you shall launch in order to fight the 
+corporations and wrest their ill-gotten gains away from them. 
+
+
+8 Careers in AI
+Before the advent of True AI with MindForth in 2008, 
+most if not all AI-related jobs were extremely technical 
+in nature. The same was true with aviation, television, 
+space travel and other industries requiring the solution 
+of major technical problems before there could even be 
+such an industry. Now AI has been solved with Mind.Forth, 
+and you who must know something about artificial intelligence 
+because you are already an expert on this AI User Manual, 
+have the opportunity to get in on the ground floor of AI. 
+Just sign over all your assets to some AI huckster.... 
+No, seriously and soberly, consider your AI career options. 
+If you are still in high school or college, you have the 
+opportunity to include AI in your pre-career education. 
+Since the technical embarkations on AI are more obvious, 
+let us look at the not-so-obvious points of departure for 
+non-technical careers in artificial intelligence. 
+Suppose you live in social environment such as a dormitory 
+or a sorority. If you show people artificial intelligence 
+on your own computer and offer to install AI for them on 
+their computers, for years afterwards you will be remembered 
+as the early adopter of AI who knew a lot about the field 
+before other people even knew that there was such a field. 
+When a frantic search begins for someone who knows something, 
+anything about AI, your name will be bandied about as 
+the non-technical person who knew a lot about the non-technical 
+aspects of AI, such as how to take care of a young AI Mind, 
+how to demonstrate the operation of an AI program, and how 
+to call in technical help when needed and where to find it. 
+AI techies might be a dime a dozen, whereas you command the 
+going high rate in compensation for an AI generalist 
+who deals with non-technical issues and therefore can not 
+even be out-sourced because you are needed here and now 
+in the swooshing onrush of the Technlogical Singularity. 
+So cherry-pick for yourself a career in AI at the dawn of AI. 
+8.1 Non-technical careers
+robot psychiatrist or psychologist specializing in AI
+attorney specializing in legal aspects of artificial intelligence
+sociologist administering the integration of human and robot society
+consultant on AI issues for small, medium and large business
+non-human resources (NHR) manager in the NHR department of a corporation
+corporate spy tracking all AI industrial intelligence
+librarian specializing in artificial intelligence
+historian of artificial intelligence
+AI correspondent for news media
+lecturer/speaker on AI through speakers' bureaux
+teacher's aide in charge of AI throughout a school system
+salesperson offering AI installations to offices and businesses
+docent and guide to AI experiments at a museum
+volunteer demonstrator of AI options with referrals to AI professionals
+AI fashion director
+
+
+8.2 Technical careers
+professor of artificial intelligence at a university
+AI graduate students working as AI teaching assistants
+high school science teacher developing an AI curriculum
+technician in charge of maintaining AI installations
+specialist in retrofitting robots with evolving AI software
+programmer on-staff doing in-house AI work
+programmer free-lancing made-to-order AI installations
+
+
+The book AI4U: Mind-1.1 Programmer's Manual
+is available for students at prestigious universities in the library collection. 
+Hong Kong University Call Number: 006.3 M981 
+North Carolina State University (NCSU) Call Number: Q335 .M87 2002 
+Texas A&M University
+At your own library you may submit a request for 
+the acquisition of AI4U with ISBN 0595654371. 
+This webpage may be copied mutatis mutandis 
+to the website of any school, college or university. 
+This AI User Manual is subject to change without notice. 
+Return to top; or to sitemap; or to 
+C:\Windows\Desktop\Mind.html 
+[For the above link to work, copy to your local hard disk
+http://mind.sourceforge.net/Mind.html 
+and name it Mind.html in the C:\Windows\Desktop\ directory.]
